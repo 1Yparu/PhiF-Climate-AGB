@@ -42,5 +42,4 @@ The files have the following roles:
 - `custom_params.sav` and `callbacks.sav`: supporting PyTorch Tabular state.
 
 
-        └── PhiF+X+GDD+CP/
 ```
