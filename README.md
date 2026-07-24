@@ -42,31 +42,5 @@ The files have the following roles:
 - `custom_params.sav` and `callbacks.sav`: supporting PyTorch Tabular state.
 
 
-## Suggested complete repository structure
-
-```text
-model_release/
-├── inference.py
-├── save_tree_models.py
-├── target_scaler.json
-├── requirements-core.txt
-├── requirements-tree.txt
-├── requirements-dl.txt
-└── models/
-    ├── XGBoost/
-    │   ├── PhiF+GDD+CP.json
-    │   ├── X_sel+GDD+CP.json
-    │   └── PhiF+X+GDD+CP.json
-    ├── LightGBM/
-    │   ├── PhiF+GDD+CP.txt
-    │   ├── X_sel+GDD+CP.txt
-    │   └── PhiF+X+GDD+CP.txt
-    ├── NODE/
-    │   ├── PhiF+GDD+CP/
-    │   ├── X_sel+GDD+CP/
-    │   └── PhiF+X+GDD+CP/
-    └── GANDALF/
-        ├── PhiF+GDD+CP/
-        ├── X_sel+GDD+CP/
         └── PhiF+X+GDD+CP/
 ```
